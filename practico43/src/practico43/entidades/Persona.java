@@ -42,6 +42,11 @@ public class Persona
     
     public void llamarMensajear(Telefono tel,long nroDestinatario, String mensaje)
     {
-        
+        System.out.println("El mensaje se envio con exito.");
+    }
+    
+    public void llamarMensajear(Telefono tel, long nroDestinatario)
+    {
+        System.out.println("Llamando a: "+ nroDestinatario);
     }
 }
