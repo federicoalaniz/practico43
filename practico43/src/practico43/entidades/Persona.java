@@ -47,6 +47,10 @@ public class Persona
     
     public void llamarMensajear(Telefono tel, long nroDestinatario)
     {
-        System.out.println("Llamando a: "+ nroDestinatario);
+        if(tel.llamar(nroDestinatario)){
+            System.out.println("Llamando a: "+nroDestinatario);
+        }
+        else
+            System.out.println("No se pudo realizar la llamada.");
     }
 }
