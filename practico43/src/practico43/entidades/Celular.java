@@ -27,4 +27,9 @@ public class Celular extends Telefono{
     public boolean llamar(long nroDestino){
         return true;
     }
+    public boolean enviarMensaje(long nroDestino, String mensaje){
+        System.out.println("Mensaje a: "+nroDestino);
+        System.out.println(mensaje);
+        return true;
+    }
 }

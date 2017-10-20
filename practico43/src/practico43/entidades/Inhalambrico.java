@@ -35,6 +35,8 @@ public class Inhalambrico extends Telefono
         this.canal = canal;
         this.alcance = alcance;
     }
-    
+    public boolean llamar(long nroDestino){
+        return true;
+    }
     
 }
