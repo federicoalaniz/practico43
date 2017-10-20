@@ -15,6 +15,7 @@ public class TestTelefono
     public static void main(String[] args)
     {
         Telefono cel = new Fijo("Domestica", 437138,"2hj4","Samsung");
+        Celular c = new Celular("Movistar", 660312, "Moto G4", "Motorola");
         Persona p=new Persona(39992375,"Romina");
         p.llamarMensajear(cel, 15557892);
         p.llamarMensajear(cel, 15851526, "Hola. Que tal?");
